@@ -1,0 +1,18 @@
+Normal is effective
+Weak to Fire
+Water is effective
+Electric is effective
+Resists Grass
+Ice is effective
+Resists Fighting
+Poison is effective
+Resists Ground
+Weak to Flying
+Psychic is effective
+Bug is effective
+Weak to Rock
+Ghost is effective
+Dragon is effective
+Dark is effective
+Steel is effective
+Fairy is effective

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane alignment="center" hgap="10" prefHeight="920.0" prefWidth="1375.0" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DualType">
+   <children>
+      <BorderPane prefHeight="352.0" prefWidth="386.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+         <center>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextArea fx:id="type3re" prefHeight="502.0" prefWidth="383.0" />
+               </children></VBox>
+         </center></BorderPane>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="70.0" prefWidth="399.0" text="Primary Type" textAlignment="CENTER" textFill="#2f2f2f" GridPane.columnIndex="1">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="68.0" prefWidth="395.0" text="Secondary Type" GridPane.columnIndex="2">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="type1" prefHeight="31.0" prefWidth="493.0" promptText="Primary type" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <ComboBox fx:id="type2" prefHeight="31.0" prefWidth="484.0" promptText="Secondary type" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Button mnemonicParsing="false" onAction="#damageCalculateButtonPressed" prefHeight="98.0" prefWidth="383.0" text="Offense Calculate" GridPane.columnIndex="3" GridPane.rowIndex="3">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <TextArea fx:id="type1re" prefHeight="306.0" prefWidth="502.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <TextArea fx:id="type2re" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Label alignment="CENTER" prefHeight="70.0" prefWidth="384.0" text="Combination Types" textFill="#da0000" GridPane.columnIndex="3">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Label>
+      <Button mnemonicParsing="false" onAction="#defenseCalculateButtonPressed" prefHeight="100.0" prefWidth="402.0" text="Defense Calculate" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnf1" mnemonicParsing="false" onAction="#buttonPrint" prefHeight="68.0" prefWidth="344.0" text="Select First type file" />
+      <ListView fx:id="mylistView" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2" />
+   </children>
+   <columnConstraints>
+      <ColumnConstraints maxWidth="540.0" minWidth="10.0" prefWidth="400.0" />
+      <ColumnConstraints maxWidth="540.0" minWidth="10.0" prefWidth="400.0" />
+      <ColumnConstraints maxWidth="580.0" minWidth="10.0" prefWidth="400.0" />
+      <ColumnConstraints maxWidth="383.0" minWidth="2.0" prefWidth="400.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="70.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints maxHeight="700.0" minHeight="301.0" prefHeight="500.0" />
+      <RowConstraints maxHeight="100.0" minHeight="10.0" prefHeight="400.0" />
+   </rowConstraints>
+   <padding>
+      <Insets bottom="5.0" left="6.0" right="3.0" top="2.0" />
+   </padding>
+</GridPane>

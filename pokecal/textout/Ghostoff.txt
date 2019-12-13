@@ -1,0 +1,18 @@
+Normal |immune|
+Fire |effective|
+Water |effective|
+Electric |effective|
+Grass |effective|
+Ice |effective|
+Fighting |effective|
+Poison |effective|
+Ground |effective|
+Flying |effective|
+Psychic |super effective|
+Bug |effective|
+Rock |effective|
+Ghost |super effective|
+Dragon |effective|
+Dark | not very effective|
+Steel |effective|
+Fairy |effective|

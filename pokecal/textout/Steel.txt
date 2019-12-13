@@ -1,0 +1,18 @@
+Resists Normal
+Weak to Fire
+Water is effective
+Electric is effective
+Resists Grass
+Resists Ice
+Weak to Fighting
+Immune to Poison
+Weak to Ground
+Resists Flying
+Resists Psychic
+Resists Bug
+Resists Rock
+Ghost is effective
+Resists Dragon
+Dark is effective
+Resists Steel
+Resists Fairy

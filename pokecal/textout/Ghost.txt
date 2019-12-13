@@ -1,0 +1,18 @@
+Immune to Normal
+Fire is effective
+Water is effective
+Electric is effective
+Grass is effective
+Ice is effective
+Immune to Fighting
+Resists Poison
+Ground is effective
+Flying is effective
+Psychic is effective
+Resists Bug
+Rock is effective
+Weak to Ghost
+Dragon is effective
+Weak to Dark
+Steel is effective
+Fairy is effective
